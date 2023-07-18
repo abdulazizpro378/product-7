@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://plus.unsplash.com/premium_photo-1686157758105-b100bd44945c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: white !important;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.form-login {
+  background-color: rgba(20, 195, 210, 0.3);
+  padding: 80px;
+  border-radius: 15px;
+}
+.form-login input {
+  width: 360px;
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+
+}
+
+.form-login input::placeholder{
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
